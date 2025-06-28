@@ -2,7 +2,27 @@
 
 ## Welcome to Wikinder
 
-$$(a + b)^2 = a^2 + 2ab + b^2$$
+$(a + b)^2 = a^2 + 2ab + b^2$
+
+<img alt="A rose made of Lego" src="https://github.com/user-attachments/assets/036d4f9e-95f4-426a-9580-9072f08f9d68" height="400">
+
+![Sheet music for "Row, Row, Row Your Boat"](https://github.com/user-attachments/assets/40e65b09-9ad1-4a03-9478-7c81dea11514)
+
+<details>
+<summary>[show]</summary>
+
+```lilypond
+\relative c' {
+  \numericTimeSignature
+  \time 4/4
+  c4 c4 c8.[ d16] e4 | e8.[ d16 e8. f16] g2 |
+  \tuplet 3/2 { c8[ c8 c8] } \tuplet 3/2 { g8[ g8 g8] } \tuplet 3/2 { e8[ e8 e8] } \tuplet 3/2 { c8[ c8 c8] } | g'8.[ f16 e8. d16] c2 \bar "|."
+}
+```
+
+</details>
+
+https://github.com/user-attachments/assets/2cbf4e6e-dc5b-4ff1-b04a-8373a4738dbf
 
 ## Donors
 
